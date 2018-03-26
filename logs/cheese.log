@@ -1,0 +1,478 @@
+[2018-03-26 10:08:04.467] [INFO] cheese - NodeClub listening on port 3000
+[2018-03-26 10:08:04.469] [INFO] cheese - God bless love....
+[2018-03-26 10:08:04.469] [INFO] cheese - You can debug your app with http://localhost:3000
+[2018-03-26 10:08:04.469] [INFO] cheese - 
+[2018-03-26 15:08:03.073] [INFO] cheese - NodeClub listening on port 3000
+[2018-03-26 15:08:03.076] [INFO] cheese - God bless love....
+[2018-03-26 15:08:03.077] [INFO] cheese - You can debug your app with http://localhost:3000
+[2018-03-26 15:08:03.077] [INFO] cheese - 
+[2018-03-26 15:08:14.287] [INFO] cheese - 
+
+Started 2018-03-26T07:08:14.287Z GET / 45.79.72.58
+[2018-03-26 15:08:14.313] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:08:14.294Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 15:08:14.314] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:08:14.294Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m10ms[39m
+[2018-03-26 15:08:14.314] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"is_block":false},"options":{"limit":10,"sort":{"score":-1}},"collectionName":"users"} [32m6ms[39m
+[2018-03-26 15:08:14.315] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"tab":{"$nin":["job","dev"]},"reply_count":0},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m6ms[39m
+[2018-03-26 15:08:14.315] [DEBUG] cheese - Cache set tops [32m0ms[39m
+[2018-03-26 15:08:14.315] [DEBUG] cheese - Cache set no_reply_topics [32m0ms[39m
+[2018-03-26 15:08:14.336] [INFO] cheese - Render view index [32m(20ms)[39m
+[2018-03-26 15:08:14.342] [INFO] cheese - Completed 200 [32m(55ms)[39m
+[2018-03-26 15:09:07.767] [INFO] cheese - 
+
+Started 2018-03-26T07:09:07.767Z GET / 111.63.3.190
+[2018-03-26 15:09:07.773] [DEBUG] cheese - Cache get tops [32m4ms[39m
+[2018-03-26 15:09:07.773] [DEBUG] cheese - Cache get no_reply_topics [32m3ms[39m
+[2018-03-26 15:09:07.773] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:09:07.769Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m3ms[39m
+[2018-03-26 15:09:07.775] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:09:07.769Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 15:09:07.784] [INFO] cheese - Render view index [32m(9ms)[39m
+[2018-03-26 15:09:07.786] [INFO] cheese - Completed 200 [32m(19ms)[39m
+[2018-03-26 15:09:07.910] [INFO] cheese - 
+
+Started 2018-03-26T07:09:07.910Z GET / 101.227.139.163
+[2018-03-26 15:09:07.914] [DEBUG] cheese - Cache get tops [32m3ms[39m
+[2018-03-26 15:09:07.914] [DEBUG] cheese - Cache get no_reply_topics [32m2ms[39m
+[2018-03-26 15:09:07.914] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:09:07.911Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m2ms[39m
+[2018-03-26 15:09:07.915] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:09:07.911Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 15:09:07.923] [INFO] cheese - Render view index [32m(8ms)[39m
+[2018-03-26 15:09:07.923] [INFO] cheese - Completed 200 [32m(13ms)[39m
+[2018-03-26 15:09:26.085] [INFO] cheese - 
+
+Started 2018-03-26T07:09:26.085Z GET /auth/github 111.63.3.190
+[2018-03-26 15:09:26.089] [INFO] cheese - Completed 302 [32m(4ms)[39m
+[2018-03-26 15:09:31.120] [INFO] cheese - 
+
+Started 2018-03-26T07:09:31.120Z GET /auth/github/callback?code=94fc22e6e3cd2a954e82 111.63.3.190
+[2018-03-26 15:09:33.096] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"githubId":"11221788"},"options":{},"collectionName":"users"} [32m3ms[39m
+[2018-03-26 15:09:33.116] [INFO] cheese - Completed 302 [32m(1996ms)[39m
+[2018-03-26 15:09:34.538] [INFO] cheese - 
+
+Started 2018-03-26T07:09:34.538Z GET /auth/github/new 111.63.3.190
+[2018-03-26 15:09:34.551] [INFO] cheese - Render view sign/new_oauth [32m(9ms)[39m
+[2018-03-26 15:09:34.559] [INFO] cheese - Completed 200 [32m(21ms)[39m
+[2018-03-26 15:09:50.410] [INFO] cheese - 
+
+Started 2018-03-26T07:09:50.410Z POST /auth/github/create 111.63.3.190
+[2018-03-26 15:09:50.428] [DEBUG] cheese - Cache set 20180326^_^@T_Tperipperday^_^@T_Tcreate_user_per_ip^_^@T_T111.63.3.190 [32m0ms[39m
+[2018-03-26 15:09:50.451] [INFO] cheese - Completed 302 [32m(41ms)[39m
+[2018-03-26 15:09:52.308] [INFO] cheese - 
+
+Started 2018-03-26T07:09:52.308Z GET / 111.63.3.190
+[2018-03-26 15:09:52.312] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"_id":"5ab89cbe77f254a129b71a1e"},"options":{},"collectionName":"users"} [32m2ms[39m
+[2018-03-26 15:09:52.318] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:09:52.316Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m1ms[39m
+[2018-03-26 15:09:52.321] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:09:52.316Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 15:09:52.322] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"is_block":false},"options":{"limit":10,"sort":{"score":-1}},"collectionName":"users"} [32m3ms[39m
+[2018-03-26 15:09:52.322] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"tab":{"$nin":["job","dev"]},"reply_count":0},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m3ms[39m
+[2018-03-26 15:09:52.323] [DEBUG] cheese - Cache set tops [32m0ms[39m
+[2018-03-26 15:09:52.323] [DEBUG] cheese - Cache set no_reply_topics [32m0ms[39m
+[2018-03-26 15:09:52.332] [INFO] cheese - Render view index [32m(9ms)[39m
+[2018-03-26 15:09:52.334] [INFO] cheese - Completed 200 [32m(26ms)[39m
+[2018-03-26 15:10:08.891] [INFO] cheese - 
+
+Started 2018-03-26T07:10:08.891Z GET /user/huarxia 111.63.3.190
+[2018-03-26 15:10:08.897] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"loginname":{}},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 15:10:08.903] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"author_id":"5ab89cbe77f254a129b71a1e"},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m4ms[39m
+[2018-03-26 15:10:08.903] [DEBUG] cheese - [35mMONGO[39m replies.[34mfind[39m {"conditions":{"author_id":"5ab89cbe77f254a129b71a1e"},"options":{"limit":20,"sort":{"create_at":-1},"fields":{}},"collectionName":"replies"} [32m3ms[39m
+[2018-03-26 15:10:08.905] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"_id":{"$in":[]}},"options":{"fields":{}},"collectionName":"topics"} [32m1ms[39m
+[2018-03-26 15:10:08.917] [INFO] cheese - Render view user/index [32m(10ms)[39m
+[2018-03-26 15:10:08.919] [INFO] cheese - Completed 200 [32m(28ms)[39m
+[2018-03-26 15:10:25.025] [INFO] cheese - 
+
+Started 2018-03-26T07:10:25.025Z GET /setting 111.63.3.190
+[2018-03-26 15:10:25.032] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"_id":"5ab89cbe77f254a129b71a1e"},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 15:10:25.043] [INFO] cheese - Render view user/setting [32m(10ms)[39m
+[2018-03-26 15:10:25.045] [INFO] cheese - Completed 200 [32m(20ms)[39m
+[2018-03-26 15:11:07.503] [INFO] cheese - 
+
+Started 2018-03-26T07:11:07.503Z GET / 111.63.3.190
+[2018-03-26 15:11:07.510] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:11:07.507Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m2ms[39m
+[2018-03-26 15:11:07.513] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:11:07.507Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 15:11:07.514] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"is_block":false},"options":{"limit":10,"sort":{"score":-1}},"collectionName":"users"} [32m3ms[39m
+[2018-03-26 15:11:07.514] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"tab":{"$nin":["job","dev"]},"reply_count":0},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m3ms[39m
+[2018-03-26 15:11:07.515] [DEBUG] cheese - Cache set tops [32m1ms[39m
+[2018-03-26 15:11:07.515] [DEBUG] cheese - Cache set no_reply_topics [32m0ms[39m
+[2018-03-26 15:11:07.522] [INFO] cheese - Render view index [32m(7ms)[39m
+[2018-03-26 15:11:07.523] [INFO] cheese - Completed 304 [32m(20ms)[39m
+[2018-03-26 15:11:12.092] [INFO] cheese - 
+
+Started 2018-03-26T07:11:12.092Z GET /my/messages 111.63.3.190
+[2018-03-26 15:11:12.097] [DEBUG] cheese - [35mMONGO[39m messages.[34mfind[39m {"conditions":{"has_read":true,"master_id":"5ab89cbe77f254a129b71a1e"},"options":{"sort":{"create_at":-1},"limit":20},"collectionName":"messages"} [32m1ms[39m
+[2018-03-26 15:11:12.098] [DEBUG] cheese - [35mMONGO[39m messages.[34mfind[39m {"conditions":{"has_read":false,"master_id":"5ab89cbe77f254a129b71a1e"},"options":{"sort":{"create_at":-1}},"collectionName":"messages"} [32m2ms[39m
+[2018-03-26 15:11:12.104] [INFO] cheese - Render view message/index [32m(6ms)[39m
+[2018-03-26 15:11:12.106] [INFO] cheese - Completed 200 [32m(14ms)[39m
+[2018-03-26 15:11:58.388] [INFO] cheese - 
+
+Started 2018-03-26T07:11:58.388Z GET / 111.63.3.190
+[2018-03-26 15:11:58.393] [DEBUG] cheese - Cache get tops [32m2ms[39m
+[2018-03-26 15:11:58.393] [DEBUG] cheese - Cache get no_reply_topics [32m2ms[39m
+[2018-03-26 15:11:58.393] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:11:58.391Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m1ms[39m
+[2018-03-26 15:11:58.394] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:11:58.391Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 15:11:58.400] [INFO] cheese - Render view index [32m(6ms)[39m
+[2018-03-26 15:11:58.400] [INFO] cheese - Completed 304 [32m(12ms)[39m
+[2018-03-26 15:12:49.185] [INFO] cheese - 
+
+Started 2018-03-26T07:12:49.185Z GET /setting 66.175.220.180
+[2018-03-26 15:12:49.190] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"_id":"5ab89cbe77f254a129b71a1e"},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 15:12:49.198] [INFO] cheese - Render view user/setting [32m(8ms)[39m
+[2018-03-26 15:12:49.199] [INFO] cheese - Completed 304 [32m(14ms)[39m
+[2018-03-26 15:14:17.065] [INFO] cheese - 
+
+Started 2018-03-26T07:14:17.065Z GET /signup 45.79.72.58
+[2018-03-26 15:14:17.072] [INFO] cheese - Render view sign/signup [32m(6ms)[39m
+[2018-03-26 15:14:17.074] [INFO] cheese - Completed 200 [32m(9ms)[39m
+[2018-03-26 15:17:03.904] [INFO] cheese - NodeClub listening on port 3000
+[2018-03-26 15:17:03.906] [INFO] cheese - God bless love....
+[2018-03-26 15:17:03.906] [INFO] cheese - You can debug your app with http://localhost:3000
+[2018-03-26 15:17:03.906] [INFO] cheese - 
+[2018-03-26 15:17:17.439] [INFO] cheese - 
+
+Started 2018-03-26T07:17:17.439Z GET /signup 45.79.72.58
+[2018-03-26 15:17:17.463] [INFO] cheese - Render view sign/signup [32m(18ms)[39m
+[2018-03-26 15:17:17.468] [INFO] cheese - Completed 200 [32m(29ms)[39m
+[2018-03-26 15:17:44.276] [INFO] cheese - 
+
+Started 2018-03-26T07:17:44.275Z GET /auth/github 45.79.72.58
+[2018-03-26 15:17:44.280] [INFO] cheese - Completed 302 [32m(5ms)[39m
+[2018-03-26 15:17:58.030] [INFO] cheese - 
+
+Started 2018-03-26T07:17:58.030Z GET /auth/github/callback?code=66dc1894aa95599f6957 45.79.72.58
+[2018-03-26 15:17:59.955] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"githubId":"12800259"},"options":{},"collectionName":"users"} [32m4ms[39m
+[2018-03-26 15:17:59.971] [INFO] cheese - Completed 302 [32m(1941ms)[39m
+[2018-03-26 15:18:00.373] [INFO] cheese - 
+
+Started 2018-03-26T07:18:00.373Z GET /auth/github/new 45.79.72.58
+[2018-03-26 15:18:00.384] [INFO] cheese - Render view sign/new_oauth [32m(8ms)[39m
+[2018-03-26 15:18:00.386] [INFO] cheese - Completed 200 [32m(13ms)[39m
+[2018-03-26 15:18:06.935] [INFO] cheese - 
+
+Started 2018-03-26T07:18:06.935Z POST /auth/github/create 45.79.72.58
+[2018-03-26 15:18:06.958] [DEBUG] cheese - Cache set 20180326^_^@T_Tperipperday^_^@T_Tcreate_user_per_ip^_^@T_T45.79.72.58 [32m0ms[39m
+[2018-03-26 15:18:06.982] [INFO] cheese - Completed 302 [32m(47ms)[39m
+[2018-03-26 15:18:07.386] [INFO] cheese - 
+
+Started 2018-03-26T07:18:07.386Z GET / 45.79.72.58
+[2018-03-26 15:18:07.390] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"_id":"5ab89eae5ad7f1d029d32d19"},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 15:18:07.405] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:18:07.396Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m5ms[39m
+[2018-03-26 15:18:07.409] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:18:07.396Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 15:18:07.410] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"is_block":false},"options":{"limit":10,"sort":{"score":-1}},"collectionName":"users"} [32m4ms[39m
+[2018-03-26 15:18:07.411] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"tab":{"$nin":["job","dev"]},"reply_count":0},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m5ms[39m
+[2018-03-26 15:18:07.411] [DEBUG] cheese - Cache set tops [32m0ms[39m
+[2018-03-26 15:18:07.412] [DEBUG] cheese - Cache set no_reply_topics [32m0ms[39m
+[2018-03-26 15:18:07.425] [INFO] cheese - Render view index [32m(13ms)[39m
+[2018-03-26 15:18:07.427] [INFO] cheese - Completed 200 [32m(41ms)[39m
+[2018-03-26 15:18:12.329] [INFO] cheese - 
+
+Started 2018-03-26T07:18:12.329Z GET /setting 45.79.72.58
+[2018-03-26 15:18:12.334] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"_id":"5ab89eae5ad7f1d029d32d19"},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 15:18:12.357] [INFO] cheese - Render view user/setting [32m(22ms)[39m
+[2018-03-26 15:18:12.358] [INFO] cheese - Completed 200 [32m(29ms)[39m
+[2018-03-26 15:18:39.594] [INFO] cheese - 
+
+Started 2018-03-26T07:18:39.594Z GET /api 45.79.72.58
+[2018-03-26 15:18:39.646] [INFO] cheese - Render view static/api [32m(47ms)[39m
+[2018-03-26 15:18:39.648] [INFO] cheese - Completed 200 [32m(54ms)[39m
+[2018-03-26 15:18:54.893] [INFO] cheese - 
+
+Started 2018-03-26T07:18:54.893Z GET /about 45.79.72.58
+[2018-03-26 15:18:54.908] [INFO] cheese - Render view static/about [32m(11ms)[39m
+[2018-03-26 15:18:54.909] [INFO] cheese - Completed 200 [32m(16ms)[39m
+[2018-03-26 15:19:03.547] [INFO] cheese - 
+
+Started 2018-03-26T07:19:03.547Z GET /topic/create 45.79.72.58
+[2018-03-26 15:19:03.557] [INFO] cheese - Render view topic/edit [32m(7ms)[39m
+[2018-03-26 15:19:03.561] [INFO] cheese - Completed 200 [32m(14ms)[39m
+[2018-03-26 15:19:22.463] [INFO] cheese - 
+
+Started 2018-03-26T07:19:22.463Z GET /my/messages 45.79.72.58
+[2018-03-26 15:19:22.470] [DEBUG] cheese - [35mMONGO[39m messages.[34mfind[39m {"conditions":{"has_read":true,"master_id":"5ab89eae5ad7f1d029d32d19"},"options":{"sort":{"create_at":-1},"limit":20},"collectionName":"messages"} [32m2ms[39m
+[2018-03-26 15:19:22.470] [DEBUG] cheese - [35mMONGO[39m messages.[34mfind[39m {"conditions":{"has_read":false,"master_id":"5ab89eae5ad7f1d029d32d19"},"options":{"sort":{"create_at":-1}},"collectionName":"messages"} [32m2ms[39m
+[2018-03-26 15:19:22.478] [INFO] cheese - Render view message/index [32m(7ms)[39m
+[2018-03-26 15:19:22.480] [INFO] cheese - Completed 200 [32m(17ms)[39m
+[2018-03-26 15:19:28.307] [INFO] cheese - 
+
+Started 2018-03-26T07:19:28.307Z GET /user/wshero 45.79.72.58
+[2018-03-26 15:19:28.312] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"loginname":{}},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 15:19:28.316] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"author_id":"5ab89eae5ad7f1d029d32d19"},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m2ms[39m
+[2018-03-26 15:19:28.316] [DEBUG] cheese - [35mMONGO[39m replies.[34mfind[39m {"conditions":{"author_id":"5ab89eae5ad7f1d029d32d19"},"options":{"limit":20,"sort":{"create_at":-1},"fields":{}},"collectionName":"replies"} [32m2ms[39m
+[2018-03-26 15:19:28.318] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"_id":{"$in":[]}},"options":{"fields":{}},"collectionName":"topics"} [32m1ms[39m
+[2018-03-26 15:19:28.332] [INFO] cheese - Render view user/index [32m(13ms)[39m
+[2018-03-26 15:19:28.333] [INFO] cheese - Completed 200 [32m(26ms)[39m
+[2018-03-26 15:23:31.465] [INFO] cheese - 
+
+Started 2018-03-26T07:23:31.465Z GET / 66.175.220.180
+[2018-03-26 15:23:31.471] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:23:31.469Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m1ms[39m
+[2018-03-26 15:23:31.474] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:23:31.469Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 15:23:31.474] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"is_block":false},"options":{"limit":10,"sort":{"score":-1}},"collectionName":"users"} [32m2ms[39m
+[2018-03-26 15:23:31.475] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"tab":{"$nin":["job","dev"]},"reply_count":0},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m3ms[39m
+[2018-03-26 15:23:31.476] [DEBUG] cheese - Cache set tops [32m1ms[39m
+[2018-03-26 15:23:31.476] [DEBUG] cheese - Cache set no_reply_topics [32m0ms[39m
+[2018-03-26 15:23:31.485] [INFO] cheese - Render view index [32m(9ms)[39m
+[2018-03-26 15:23:31.487] [INFO] cheese - Completed 200 [32m(21ms)[39m
+[2018-03-26 15:23:51.286] [INFO] cheese - 
+
+Started 2018-03-26T07:23:51.286Z GET /user/huarxia 66.175.220.180
+[2018-03-26 15:23:51.299] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"loginname":{}},"options":{},"collectionName":"users"} [32m6ms[39m
+[2018-03-26 15:23:51.302] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"author_id":"5ab89cbe77f254a129b71a1e"},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m2ms[39m
+[2018-03-26 15:23:51.303] [DEBUG] cheese - [35mMONGO[39m replies.[34mfind[39m {"conditions":{"author_id":"5ab89cbe77f254a129b71a1e"},"options":{"limit":20,"sort":{"create_at":-1},"fields":{}},"collectionName":"replies"} [32m2ms[39m
+[2018-03-26 15:23:51.304] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"_id":{"$in":[]}},"options":{"fields":{}},"collectionName":"topics"} [32m1ms[39m
+[2018-03-26 15:23:51.316] [INFO] cheese - Render view user/index [32m(12ms)[39m
+[2018-03-26 15:23:51.318] [INFO] cheese - Completed 200 [32m(32ms)[39m
+[2018-03-26 15:23:56.482] [INFO] cheese - 
+
+Started 2018-03-26T07:23:56.482Z POST /signout 66.175.220.180
+[2018-03-26 15:23:56.488] [INFO] cheese - Completed 302 [32m(6ms)[39m
+[2018-03-26 15:23:56.907] [INFO] cheese - 
+
+Started 2018-03-26T07:23:56.907Z GET / 66.175.220.180
+[2018-03-26 15:23:56.911] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:23:56.908Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m2ms[39m
+[2018-03-26 15:23:56.911] [DEBUG] cheese - Cache get tops [32m2ms[39m
+[2018-03-26 15:23:56.911] [DEBUG] cheese - Cache get no_reply_topics [32m2ms[39m
+[2018-03-26 15:23:56.912] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:23:56.908Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 15:23:56.918] [INFO] cheese - Render view index [32m(6ms)[39m
+[2018-03-26 15:23:56.921] [INFO] cheese - Completed 200 [32m(14ms)[39m
+[2018-03-26 15:24:14.490] [INFO] cheese - 
+
+Started 2018-03-26T07:24:14.490Z GET /rss 66.175.220.180
+[2018-03-26 15:24:14.494] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"tab":{"$nin":["dev"]}},"options":{"limit":50,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m1ms[39m
+[2018-03-26 15:24:14.495] [DEBUG] cheese - Cache set rss [32m0ms[39m
+[2018-03-26 15:24:14.496] [INFO] cheese - Completed 200 [32m(6ms)[39m
+[2018-03-26 15:24:15.098] [INFO] cheese - 
+
+Started 2018-03-26T07:24:15.098Z GET /favicon.ico 66.175.220.180
+[2018-03-26 15:24:15.101] [INFO] cheese - Completed 404 [32m(3ms)[39m
+[2018-03-26 15:24:28.765] [INFO] cheese - 
+
+Started 2018-03-26T07:24:28.765Z GET /signup 66.175.220.180
+[2018-03-26 15:24:28.773] [INFO] cheese - Render view sign/signup [32m(5ms)[39m
+[2018-03-26 15:24:28.774] [INFO] cheese - Completed 200 [32m(9ms)[39m
+[2018-03-26 15:24:48.812] [INFO] cheese - 
+
+Started 2018-03-26T07:24:48.812Z POST /signup 66.175.220.180
+[2018-03-26 15:24:48.819] [INFO] cheese - Render view sign/signup [32m(4ms)[39m
+[2018-03-26 15:24:48.820] [INFO] cheese - Completed 422 [32m(8ms)[39m
+[2018-03-26 15:25:10.625] [INFO] cheese - 
+
+Started 2018-03-26T07:25:10.625Z POST /signup 66.175.220.180
+[2018-03-26 15:25:10.643] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"$or":[{"loginname":"huaxia"},{"email":"liubiao@itoxs.com"}]},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 15:25:10.942] [INFO] cheese - Render view sign/signup [32m(3ms)[39m
+[2018-03-26 15:25:10.944] [INFO] cheese - Completed 200 [32m(319ms)[39m
+[2018-03-26 15:28:44.251] [INFO] cheese - 
+
+Started 2018-03-26T07:28:44.251Z GET /user/wshero 45.79.72.58
+[2018-03-26 15:28:44.257] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"loginname":{}},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 15:28:44.260] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"author_id":"5ab89eae5ad7f1d029d32d19"},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m2ms[39m
+[2018-03-26 15:28:44.260] [DEBUG] cheese - [35mMONGO[39m replies.[34mfind[39m {"conditions":{"author_id":"5ab89eae5ad7f1d029d32d19"},"options":{"limit":20,"sort":{"create_at":-1},"fields":{}},"collectionName":"replies"} [32m1ms[39m
+[2018-03-26 15:28:44.261] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"_id":{"$in":[]}},"options":{"fields":{}},"collectionName":"topics"} [32m0ms[39m
+[2018-03-26 15:28:44.272] [INFO] cheese - Render view user/index [32m(10ms)[39m
+[2018-03-26 15:28:44.274] [INFO] cheese - Completed 200 [32m(23ms)[39m
+[2018-03-26 15:29:32.479] [INFO] cheese - NodeClub listening on port 3000
+[2018-03-26 15:29:32.482] [INFO] cheese - God bless love....
+[2018-03-26 15:29:32.482] [INFO] cheese - You can debug your app with http://localhost:3000
+[2018-03-26 15:29:32.482] [INFO] cheese - 
+[2018-03-26 15:29:36.463] [INFO] cheese - 
+
+Started 2018-03-26T07:29:36.463Z GET /user/wshero 45.79.72.58
+[2018-03-26 15:29:36.496] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"loginname":{}},"options":{},"collectionName":"users"} [32m5ms[39m
+[2018-03-26 15:29:36.506] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"author_id":"5ab89eae5ad7f1d029d32d19"},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m3ms[39m
+[2018-03-26 15:29:36.506] [DEBUG] cheese - [35mMONGO[39m replies.[34mfind[39m {"conditions":{"author_id":"5ab89eae5ad7f1d029d32d19"},"options":{"limit":20,"sort":{"create_at":-1},"fields":{}},"collectionName":"replies"} [32m3ms[39m
+[2018-03-26 15:29:36.509] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"_id":{"$in":[]}},"options":{"fields":{}},"collectionName":"topics"} [32m2ms[39m
+[2018-03-26 15:29:36.578] [INFO] cheese - Render view user/index [32m(67ms)[39m
+[2018-03-26 15:29:36.584] [INFO] cheese - Completed 200 [32m(121ms)[39m
+[2018-03-26 15:29:56.425] [INFO] cheese - 
+
+Started 2018-03-26T07:29:56.425Z GET /setting 45.79.72.58
+[2018-03-26 15:29:56.431] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"_id":"5ab89eae5ad7f1d029d32d19"},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 15:29:56.448] [INFO] cheese - Render view user/setting [32m(16ms)[39m
+[2018-03-26 15:29:56.450] [INFO] cheese - Completed 200 [32m(25ms)[39m
+[2018-03-26 15:30:18.249] [INFO] cheese - 
+
+Started 2018-03-26T07:30:18.249Z GET /about 45.79.72.58
+[2018-03-26 15:30:18.322] [INFO] cheese - Render view static/about [32m(65ms)[39m
+[2018-03-26 15:30:18.325] [INFO] cheese - Completed 200 [32m(76ms)[39m
+[2018-03-26 15:30:24.746] [INFO] cheese - 
+
+Started 2018-03-26T07:30:24.746Z GET /admin 45.79.72.58
+[2018-03-26 15:30:24.754] [INFO] cheese - Completed 404 [32m(8ms)[39m
+[2018-03-26 15:30:25.478] [INFO] cheese - 
+
+Started 2018-03-26T07:30:25.478Z GET /favicon.ico 45.79.72.58
+[2018-03-26 15:30:25.483] [INFO] cheese - Completed 404 [32m(5ms)[39m
+[2018-03-26 15:33:22.400] [INFO] cheese - 
+
+Started 2018-03-26T07:33:22.400Z GET / 45.79.72.58
+[2018-03-26 15:33:22.409] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:33:22.404Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m3ms[39m
+[2018-03-26 15:33:22.412] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:33:22.404Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 15:33:22.413] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"is_block":false},"options":{"limit":10,"sort":{"score":-1}},"collectionName":"users"} [32m3ms[39m
+[2018-03-26 15:33:22.414] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"tab":{"$nin":["job","dev"]},"reply_count":0},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m4ms[39m
+[2018-03-26 15:33:22.415] [DEBUG] cheese - Cache set tops [32m1ms[39m
+[2018-03-26 15:33:22.415] [DEBUG] cheese - Cache set no_reply_topics [32m0ms[39m
+[2018-03-26 15:33:22.424] [INFO] cheese - Render view index [32m(9ms)[39m
+[2018-03-26 15:33:22.426] [INFO] cheese - Completed 200 [32m(26ms)[39m
+[2018-03-26 15:38:27.645] [INFO] cheese - 
+
+Started 2018-03-26T07:38:27.645Z GET /user/wshero 45.79.72.58
+[2018-03-26 15:38:27.650] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"loginname":{}},"options":{},"collectionName":"users"} [32m2ms[39m
+[2018-03-26 15:38:27.652] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"author_id":"5ab89eae5ad7f1d029d32d19"},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m1ms[39m
+[2018-03-26 15:38:27.652] [DEBUG] cheese - [35mMONGO[39m replies.[34mfind[39m {"conditions":{"author_id":"5ab89eae5ad7f1d029d32d19"},"options":{"limit":20,"sort":{"create_at":-1},"fields":{}},"collectionName":"replies"} [32m1ms[39m
+[2018-03-26 15:38:27.653] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"_id":{"$in":[]}},"options":{"fields":{}},"collectionName":"topics"} [32m1ms[39m
+[2018-03-26 15:38:27.663] [INFO] cheese - Render view user/index [32m(9ms)[39m
+[2018-03-26 15:38:27.664] [INFO] cheese - Completed 200 [32m(19ms)[39m
+[2018-03-26 15:41:13.864] [INFO] cheese - NodeClub listening on port 3000
+[2018-03-26 15:41:13.866] [INFO] cheese - God bless love....
+[2018-03-26 15:41:13.866] [INFO] cheese - You can debug your app with http://localhost:3000
+[2018-03-26 15:41:13.866] [INFO] cheese - 
+[2018-03-26 15:41:32.359] [INFO] cheese - 
+
+Started 2018-03-26T07:41:32.358Z POST /signout 45.79.72.58
+[2018-03-26 15:41:32.399] [INFO] cheese - Completed 302 [32m(41ms)[39m
+[2018-03-26 15:41:32.817] [INFO] cheese - 
+
+Started 2018-03-26T07:41:32.817Z GET / 45.79.72.58
+[2018-03-26 15:41:32.831] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:41:32.820Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m5ms[39m
+[2018-03-26 15:41:32.834] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:41:32.820Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 15:41:32.835] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"is_block":false},"options":{"limit":10,"sort":{"score":-1}},"collectionName":"users"} [32m4ms[39m
+[2018-03-26 15:41:32.837] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"tab":{"$nin":["job","dev"]},"reply_count":0},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m5ms[39m
+[2018-03-26 15:41:32.838] [DEBUG] cheese - Cache set tops [32m1ms[39m
+[2018-03-26 15:41:32.838] [DEBUG] cheese - Cache set no_reply_topics [32m0ms[39m
+[2018-03-26 15:41:32.855] [INFO] cheese - Render view index [32m(16ms)[39m
+[2018-03-26 15:41:32.857] [INFO] cheese - Completed 200 [32m(40ms)[39m
+[2018-03-26 15:41:45.428] [INFO] cheese - 
+
+Started 2018-03-26T07:41:45.428Z GET /signup 45.79.72.58
+[2018-03-26 15:41:45.439] [INFO] cheese - Render view sign/signup [32m(9ms)[39m
+[2018-03-26 15:41:45.441] [INFO] cheese - Completed 200 [32m(13ms)[39m
+[2018-03-26 15:42:06.134] [INFO] cheese - 
+
+Started 2018-03-26T07:42:06.134Z POST /signup 45.79.72.58
+[2018-03-26 15:42:06.153] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"$or":[{"loginname":"jinsheng"},{"email":"1104627316@qq.com"}]},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 15:42:06.458] [INFO] cheese - Render view sign/signup [32m(7ms)[39m
+[2018-03-26 15:42:06.460] [INFO] cheese - Completed 200 [32m(326ms)[39m
+[2018-03-26 15:45:16.186] [INFO] cheese - 
+
+Started 2018-03-26T07:45:16.186Z GET / 116.249.238.221
+[2018-03-26 15:45:16.191] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T07:45:16.187Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m2ms[39m
+[2018-03-26 15:45:16.196] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T07:45:16.187Z"},"deleted":false}pages [32m1ms[39m
+[2018-03-26 15:45:16.196] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"is_block":false},"options":{"limit":10,"sort":{"score":-1}},"collectionName":"users"} [32m4ms[39m
+[2018-03-26 15:45:16.198] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"tab":{"$nin":["job","dev"]},"reply_count":0},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m6ms[39m
+[2018-03-26 15:45:16.199] [DEBUG] cheese - Cache set tops [32m1ms[39m
+[2018-03-26 15:45:16.199] [DEBUG] cheese - Cache set no_reply_topics [32m0ms[39m
+[2018-03-26 15:45:16.216] [INFO] cheese - Render view index [32m(17ms)[39m
+[2018-03-26 15:45:16.218] [INFO] cheese - Completed 200 [32m(32ms)[39m
+[2018-03-26 15:56:09.900] [INFO] cheese - NodeClub listening on port 3000
+[2018-03-26 15:56:09.903] [INFO] cheese - God bless love....
+[2018-03-26 15:56:09.903] [INFO] cheese - You can debug your app with http://localhost:3000
+[2018-03-26 15:56:09.903] [INFO] cheese - 
+[2018-03-26 15:56:19.304] [INFO] cheese - 
+
+Started 2018-03-26T07:56:19.304Z POST /signup 45.79.72.58
+[2018-03-26 15:56:19.369] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"$or":[{"loginname":"jinsheng"},{"email":"1104627316@qq.com"}]},"options":{},"collectionName":"users"} [32m4ms[39m
+[2018-03-26 15:56:19.401] [INFO] cheese - Render view sign/signup [32m(26ms)[39m
+[2018-03-26 15:56:19.406] [INFO] cheese - Completed 422 [32m(102ms)[39m
+[2018-03-26 15:57:00.451] [INFO] cheese - 
+
+Started 2018-03-26T07:57:00.451Z GET /signin 45.79.72.58
+[2018-03-26 15:57:00.463] [INFO] cheese - Render view sign/signin [32m(10ms)[39m
+[2018-03-26 15:57:00.465] [INFO] cheese - Completed 200 [32m(14ms)[39m
+[2018-03-26 15:57:12.930] [INFO] cheese - 
+
+Started 2018-03-26T07:57:12.929Z POST /signin 45.79.72.58
+[2018-03-26 15:57:12.937] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"loginname":{}},"options":{},"collectionName":"users"} [32m3ms[39m
+[2018-03-26 15:57:13.244] [INFO] cheese - Render view sign/signin [32m(8ms)[39m
+[2018-03-26 15:57:13.252] [INFO] cheese - Completed 403 [32m(323ms)[39m
+[2018-03-26 16:06:57.790] [INFO] cheese - 
+
+Started 2018-03-26T08:06:57.789Z GET /signup 45.79.72.58
+[2018-03-26 16:06:57.796] [INFO] cheese - Render view sign/signup [32m(5ms)[39m
+[2018-03-26 16:06:57.797] [INFO] cheese - Completed 200 [32m(8ms)[39m
+[2018-03-26 16:07:36.570] [INFO] cheese - 
+
+Started 2018-03-26T08:07:36.570Z POST /signup 45.79.72.58
+[2018-03-26 16:07:36.582] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"$or":[{"loginname":"jin110"},{"email":"1023593960@qq.com"}]},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 16:07:36.854] [INFO] cheese - Render view sign/signup [32m(5ms)[39m
+[2018-03-26 16:07:36.858] [INFO] cheese - Completed 200 [32m(288ms)[39m
+[2018-03-26 16:13:09.882] [INFO] cheese - 
+
+Started 2018-03-26T08:13:09.882Z POST /signup 45.79.72.58
+[2018-03-26 16:13:09.889] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"$or":[{"loginname":"jin110"},{"email":"1023593960@qq.com"}]},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 16:13:09.895] [INFO] cheese - Render view sign/signup [32m(5ms)[39m
+[2018-03-26 16:13:09.896] [INFO] cheese - Completed 422 [32m(14ms)[39m
+[2018-03-26 17:07:39.069] [INFO] cheese - 
+
+Started 2018-03-26T09:07:39.069Z POST /signup 45.79.72.58
+[2018-03-26 17:11:05.171] [INFO] cheese - 
+
+Started 2018-03-26T09:11:05.171Z POST /signup 45.79.72.58
+[2018-03-26 17:11:10.503] [INFO] cheese - 
+
+Started 2018-03-26T09:11:10.503Z GET / 45.79.72.58
+[2018-03-26 17:11:10.523] [INFO] cheese - Completed 500 [32m(20ms)[39m
+[2018-03-26 17:11:32.234] [INFO] cheese - 
+
+Started 2018-03-26T09:11:32.234Z GET / 45.79.72.58
+[2018-03-26 17:11:32.241] [INFO] cheese - Completed 500 [32m(7ms)[39m
+[2018-03-26 17:24:30.396] [INFO] cheese - 
+
+Started 2018-03-26T09:24:30.396Z GET / 45.79.72.58
+[2018-03-26 17:24:30.401] [INFO] cheese - Completed 500 [32m(5ms)[39m
+[2018-03-26 17:26:04.175] [INFO] cheese - NodeClub listening on port 3000
+[2018-03-26 17:26:04.177] [INFO] cheese - God bless love....
+[2018-03-26 17:26:04.178] [INFO] cheese - You can debug your app with http://bbs.myens.shop:3000
+[2018-03-26 17:26:04.178] [INFO] cheese - 
+[2018-03-26 17:26:08.526] [INFO] cheese - 
+
+Started 2018-03-26T09:26:08.525Z GET / 45.79.72.58
+[2018-03-26 17:26:08.552] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T09:26:08.535Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m9ms[39m
+[2018-03-26 17:26:08.558] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T09:26:08.535Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 17:26:08.558] [DEBUG] cheese - [35mMONGO[39m users.[34mfind[39m {"conditions":{"is_block":false},"options":{"limit":10,"sort":{"score":-1}},"collectionName":"users"} [32m8ms[39m
+[2018-03-26 17:26:08.564] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"tab":{"$nin":["job","dev"]},"reply_count":0},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m14ms[39m
+[2018-03-26 17:26:08.565] [DEBUG] cheese - Cache set tops [32m1ms[39m
+[2018-03-26 17:26:08.566] [DEBUG] cheese - Cache set no_reply_topics [32m1ms[39m
+[2018-03-26 17:26:08.587] [INFO] cheese - Render view index [32m(21ms)[39m
+[2018-03-26 17:26:08.592] [INFO] cheese - Completed 200 [32m(67ms)[39m
+[2018-03-26 17:26:22.322] [INFO] cheese - 
+
+Started 2018-03-26T09:26:22.322Z GET /auth/github 45.79.72.58
+[2018-03-26 17:26:22.328] [INFO] cheese - Completed 302 [32m(6ms)[39m
+[2018-03-26 17:26:31.281] [INFO] cheese - 
+
+Started 2018-03-26T09:26:31.281Z GET /auth/github/callback?code=3fbad32e6e7bc37bb021 45.79.72.58
+[2018-03-26 17:26:33.320] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"githubId":"12800259"},"options":{},"collectionName":"users"} [32m4ms[39m
+[2018-03-26 17:26:33.339] [INFO] cheese - Completed 302 [32m(2058ms)[39m
+[2018-03-26 17:26:33.730] [INFO] cheese - 
+
+Started 2018-03-26T09:26:33.730Z GET / 45.79.72.58
+[2018-03-26 17:26:33.735] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"_id":"5ab89eae5ad7f1d029d32d19"},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 17:26:33.742] [DEBUG] cheese - Cache get tops [32m2ms[39m
+[2018-03-26 17:26:33.743] [DEBUG] cheese - Cache get no_reply_topics [32m3ms[39m
+[2018-03-26 17:26:33.744] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"create_at":{"$gte":"2017-03-26T09:26:33.739Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} [32m2ms[39m
+[2018-03-26 17:26:33.745] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-03-26T09:26:33.739Z"},"deleted":false}pages [32m0ms[39m
+[2018-03-26 17:26:33.769] [INFO] cheese - Render view index [32m(24ms)[39m
+[2018-03-26 17:26:33.772] [INFO] cheese - Completed 200 [32m(42ms)[39m
+[2018-03-26 17:30:02.471] [INFO] cheese - 
+
+Started 2018-03-26T09:30:02.471Z GET /setting 45.79.72.58
+[2018-03-26 17:30:02.478] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"_id":"5ab89eae5ad7f1d029d32d19"},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 17:30:02.499] [INFO] cheese - Render view user/setting [32m(21ms)[39m
+[2018-03-26 17:30:02.501] [INFO] cheese - Completed 200 [32m(30ms)[39m
+[2018-03-26 17:30:21.765] [INFO] cheese - 
+
+Started 2018-03-26T09:30:21.765Z GET /user/wshero 45.79.72.58
+[2018-03-26 17:30:21.771] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"loginname":{}},"options":{},"collectionName":"users"} [32m2ms[39m
+[2018-03-26 17:30:21.775] [DEBUG] cheese - [35mMONGO[39m replies.[34mfind[39m {"conditions":{"author_id":"5ab89eae5ad7f1d029d32d19"},"options":{"limit":20,"sort":{"create_at":-1},"fields":{}},"collectionName":"replies"} [32m2ms[39m
+[2018-03-26 17:30:21.777] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"author_id":"5ab89eae5ad7f1d029d32d19"},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m4ms[39m
+[2018-03-26 17:30:21.778] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"_id":{"$in":[]}},"options":{"fields":{}},"collectionName":"topics"} [32m2ms[39m
+[2018-03-26 17:30:21.791] [INFO] cheese - Render view user/index [32m(12ms)[39m
+[2018-03-26 17:30:21.792] [INFO] cheese - Completed 200 [32m(27ms)[39m
+[2018-03-26 17:30:31.708] [INFO] cheese - 
+
+Started 2018-03-26T09:30:31.708Z GET /user/huarxia 45.79.72.58
+[2018-03-26 17:30:31.713] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"loginname":{}},"options":{},"collectionName":"users"} [32m1ms[39m
+[2018-03-26 17:30:31.715] [DEBUG] cheese - [35mMONGO[39m replies.[34mfind[39m {"conditions":{"author_id":"5ab89cbe77f254a129b71a1e"},"options":{"limit":20,"sort":{"create_at":-1},"fields":{}},"collectionName":"replies"} [32m1ms[39m
+[2018-03-26 17:30:31.716] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"author_id":"5ab89cbe77f254a129b71a1e"},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} [32m3ms[39m
+[2018-03-26 17:30:31.717] [DEBUG] cheese - [35mMONGO[39m topics.[34mfind[39m {"conditions":{"deleted":false,"_id":{"$in":[]}},"options":{"fields":{}},"collectionName":"topics"} [32m1ms[39m
+[2018-03-26 17:30:31.727] [INFO] cheese - Render view user/index [32m(10ms)[39m
+[2018-03-26 17:30:31.728] [INFO] cheese - Completed 200 [32m(20ms)[39m
+[2018-03-26 17:31:11.702] [INFO] cheese - 
+
+Started 2018-03-26T09:31:11.702Z POST /user/set_star 45.79.72.58
+[2018-03-26 17:31:11.775] [DEBUG] cheese - [35mMONGO[39m users.[34mfindOne[39m {"conditions":{"_id":"5ab89cbe77f254a129b71a1e"},"options":{},"collectionName":"users"} [32m54ms[39m
+[2018-03-26 17:31:11.800] [INFO] cheese - Completed 200 [32m(98ms)[39m
